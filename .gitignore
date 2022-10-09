@@ -1,23 +1,30 @@
-# Compiled class file
-*.class
 
-# Log file
-*.log
+ <title>Búsqueda interna de datos personales y emergencias</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+        <link href="jquery-ui.css" rel="stylesheet">
+        <script src="external/jquery/jquery.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="js.js"></script>
+        <script src="jquery-ui.js"></script>
+        <link href="css.css" rel="stylesheet">
+        <link href="css-interno.css" rel="stylesheet">
 
-# BlueJ files
-*.ctxt
+</head>
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+<body>
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand text-success" href="index.html">Sistema Recursos Humanos Corporativo G&G</a>
+      </div>
+      
+        <button type="button" class="btn btn-info btn-lg"><a href="index.html"  class="text-success">Inicio</a></button>
+      
+        <button type="button" class="btn btn-info btn-lg"><a href="html2.html" class="text-success">Datos personales y emergencias</a></button>
+        <button type="button" class="btn btn-info btn-lg"><a href="html3.html" class="text-success">Nuevos empleados</a></button>
+        <button type="button" class="btn btn-info btn-lg"><a href="html4.html" class="text-success">Vacaciones por área</a></button>
+      
+    </div>
+  </nav>
